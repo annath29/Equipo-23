@@ -1,0 +1,9 @@
+[build]
+  command = "ng build --configuration=production"
+  publish = "dist/minegocio"
+  functions = "functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
